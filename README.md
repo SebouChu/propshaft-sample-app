@@ -2,6 +2,16 @@
 
 A Rails 7 application to try a few things with Propshaft. This README will contain some issues I encountered.
 
+## Specs
+
+- Rails 7.0.0.rc1
+- Ruby 3.0.3
+- Propshaft
+- JSBundling-Rails (with esbuild)
+- CSSBundling-Rails (with sass)
+- Bootstrap 5
+- Bootstrap Icons
+
 ## Issues
 
 ### Bootstrap Icons - Font files
