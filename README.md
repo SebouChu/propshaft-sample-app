@@ -34,11 +34,11 @@ To make the icons work, I had to do two things:
   ```ruby
   Rails.application.config.assets.paths << Rails.root.join("node_modules", "bootstrap-icons", "font")
   ```
-- Change the `$bootstrap-icons-font-src` variable before importing `bootstrap-icons` stylesheet.
+- Change the `$bootstrap-icons-font-src` variable before importing `bootstrap-icons` stylesheet. We need to remove the fingerprint.
 
   In `app/assets/stylesheets/application.sass.scss`:
   ```scss
-  $bootstrap-icons-font-src: url("fonts/bootstrap-icons.woff2") format("woff2"),
-  url("fonts/bootstrap-icons.woff") format("woff");
+  $bootstrap-icons-font-src: url("./fonts/bootstrap-icons.woff2") format("woff2"),
+  url("./fonts/bootstrap-icons.woff") format("woff");
   @import "bootstrap-icons/font/bootstrap-icons";
   ```

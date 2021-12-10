@@ -1,6 +1,6 @@
 // Entry point for your Sass build
 @import "bootstrap/scss/bootstrap";
 
-$bootstrap-icons-font-src: url("fonts/bootstrap-icons.woff2") format("woff2"),
-url("fonts/bootstrap-icons.woff") format("woff");
+$bootstrap-icons-font-src: url("./fonts/bootstrap-icons.woff2") format("woff2"),
+url("./fonts/bootstrap-icons.woff") format("woff");
 @import "bootstrap-icons/font/bootstrap-icons";
